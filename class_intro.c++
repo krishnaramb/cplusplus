@@ -8,7 +8,7 @@ p = {2};//ok
 
 int  q{3}; //ok (initialization)
 
-Note2: Learn how to write the inline constrcutor definition
+Note2: how to initialize the members of a class using member initializer list
 
 Note3: Learn the operator ovoerloading for suspection[], eg [2]
 
