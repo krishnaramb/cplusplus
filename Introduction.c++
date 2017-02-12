@@ -86,7 +86,7 @@ double read_and_sum(int s){
   }
   double sum =0;
   for (auto i =0;i!=v.size;++i){
-      sum+=v.elem[i];
+      sum =sum+ v.elem[i];
   }
   return sum;
 }
