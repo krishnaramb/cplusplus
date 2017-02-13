@@ -1,4 +1,8 @@
 
+
+
+
+
 output:user.o Vector.o
 	g++ user.o Vector.o -o output
 
@@ -9,4 +13,4 @@ Vector.o: Vector.c++ Vector.h
 	g++ -c Vector.c++
 
 clean:
-	rm *.0
+	del /f *.o
