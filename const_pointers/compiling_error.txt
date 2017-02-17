@@ -1,0 +1,7 @@
+C:\Dropbox\CPlusPlus\Github\cplusplus\const_pointers\const_pointer_9.c++: In function 'int main()':
+C:\Dropbox\CPlusPlus\Github\cplusplus\const_pointers\const_pointer_9.c++:12:8: error: assignment of read-only location '* i'
+  *i=*i+1;    //ERROR: you can't do this because location is const
+        ^
+C:\Dropbox\CPlusPlus\Github\cplusplus\const_pointers\const_pointer_9.c++:14:7: error: increment of read-only location '* i'
+   (*i)++;    //ERROR: increment of read-only location i
+       ^~

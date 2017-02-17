@@ -12,7 +12,7 @@ int main() {
   i = &y; // error, i is the read only variable. You can't reassign it
 
   x++;
- cout<<*i;
+ cout<<*i;  //what will it print?
   return 0;
 
 }
