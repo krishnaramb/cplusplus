@@ -55,7 +55,10 @@ double read_and_sum(int s){
   return sum;
 
 }
-
+/*
+Notice that inside main and anywhere outside class, you can't access private variable. so you ahve not
+used elem  here but instead used [] operator to access the values
+*/
 int main(){
   Vector v(10);// create a vector object of 10 element
   v[0] = 50; // see its possible(due to operator-overloading)

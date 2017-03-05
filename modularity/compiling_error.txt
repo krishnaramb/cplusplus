@@ -1,6 +1,4 @@
-C:\Users\kbudhath\AppData\Local\Temp\ccqQX1OL.o:user.c++:(.text+0x21): undefined reference to `Vector::size()'
-C:\Users\kbudhath\AppData\Local\Temp\ccqQX1OL.o:user.c++:(.text+0x39): undefined reference to `Vector::operator[](int)'
-C:\Users\kbudhath\AppData\Local\Temp\ccqQX1OL.o:user.c++:(.text+0xd1): undefined reference to `Vector::Vector(int)'
-C:\Users\kbudhath\AppData\Local\Temp\ccqQX1OL.o:user.c++:(.text+0x113): undefined reference to `Vector::size()'
-C:\Users\kbudhath\AppData\Local\Temp\ccqQX1OL.o:user.c++:(.text+0x12c): undefined reference to `Vector::operator[](int)'
-collect2.exe: error: ld returned 1 exit status
+C:\Dropbox\CPlusPlus\Github\cplusplus\modularity\const_pointer.c++: In function 'int main()':
+C:\Dropbox\CPlusPlus\Github\cplusplus\modularity\const_pointer.c++:5:4: error: increment of read-only variable 'i'
+   i++; //error, increment of readonly
+    ^~

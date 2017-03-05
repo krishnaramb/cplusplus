@@ -24,7 +24,7 @@ int main () {
     cout << "Assertions.c++" << endl;
 
     assert(cycle_length( 2) == 1);
-    assert(cycle_length( 5) == 5);
+    assert(cycle_length( 5) == 6);
     assert(cycle_length(10) == 6);
 
     cout << "Done." << endl;
