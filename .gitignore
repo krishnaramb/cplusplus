@@ -1,0 +1,5 @@
+JNI_practice/*.class
+JNI_practice/*.o
+JNI_practice/*.dll
+*.o
+

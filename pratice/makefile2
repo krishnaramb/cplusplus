@@ -1,0 +1,14 @@
+output:	test2.o
+	g++ test2.o  -o output
+
+
+test2.o: test2.c++
+	g++ -c test2.c++
+
+
+
+clean:
+	del /f *.o output.exe
+
+run:
+	output
